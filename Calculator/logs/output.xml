@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210824 20:50:48.856" rpa="false" schemaversion="2">
+<suite id="s1" name="Calculation" source="C:\Users\55519\Desktop\Projetos\Robot Framework\Desktop\Calculator\tests\calculation.robot">
+<test id="s1-t1" name="Sum Test">
+<kw name="Open Calculator" library="base">
+<kw name="Load Elements" library="base">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements.sikuli</arg>
+<doc>Add image path</doc>
+<msg timestamp="20210824 20:50:52.319" level="INFO">Params: [C:\Users\55519\Desktop\Projetos\Robot Framework\Desktop\Calculator\resources\elements.sikuli]</msg>
+<status status="PASS" starttime="20210824 20:50:52.297" endtime="20210824 20:50:52.319"/>
+</kw>
+<status status="PASS" starttime="20210824 20:50:52.296" endtime="20210824 20:50:52.319"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>Calculator.png</arg>
+<doc>Click</doc>
+<msg timestamp="20210824 20:50:53.672" level="INFO">Params: [Calculator.png]</msg>
+<msg timestamp="20210824 20:50:53.672" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1629849052868.png'/&gt;
+[log] CLICK on L[661,1059]@S(0) (558 msec)</msg>
+<status status="PASS" starttime="20210824 20:50:52.320" endtime="20210824 20:50:53.672"/>
+</kw>
+<status status="PASS" starttime="20210824 20:50:52.296" endtime="20210824 20:50:53.672"/>
+</kw>
+<kw name="Set Operation" library="base">
+<kw name="Click" library="SikuliLibrary">
+<arg>num2.png</arg>
+<doc>Click</doc>
+<msg timestamp="20210824 20:50:55.703" level="INFO">Params: [num2.png]</msg>
+<msg timestamp="20210824 20:50:55.703" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1629849054822.png'/&gt;
+[log] CLICK on L[655,715]@S(0) (536 msec)</msg>
+<status status="PASS" starttime="20210824 20:50:53.675" endtime="20210824 20:50:55.703"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>SumComand.png</arg>
+<doc>Click</doc>
+<msg timestamp="20210824 20:50:56.938" level="INFO">Params: [SumComand.png]</msg>
+<msg timestamp="20210824 20:50:56.938" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1629849056046.png'/&gt;
+[log] CLICK on L[887,716]@S(0) (539 msec)</msg>
+<status status="PASS" starttime="20210824 20:50:55.703" endtime="20210824 20:50:56.938"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>num2.png</arg>
+<doc>Click</doc>
+<msg timestamp="20210824 20:50:58.099" level="INFO">Params: [num2.png]</msg>
+<msg timestamp="20210824 20:50:58.099" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1629849057250.png'/&gt;
+[log] CLICK on L[655,715]@S(0) (533 msec)</msg>
+<status status="PASS" starttime="20210824 20:50:56.938" endtime="20210824 20:50:58.099"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>equalsComand.png</arg>
+<doc>Click</doc>
+<msg timestamp="20210824 20:50:59.347" level="INFO">Params: [equalsComand.png]</msg>
+<msg timestamp="20210824 20:50:59.347" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1629849058485.png'/&gt;
+[log] CLICK on L[886,767]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20210824 20:50:58.099" endtime="20210824 20:50:59.348"/>
+</kw>
+<status status="PASS" starttime="20210824 20:50:53.674" endtime="20210824 20:50:59.348"/>
+</kw>
+<kw name="Checks Results" library="base">
+<kw name="Screen Should Contain" library="SikuliLibrary">
+<arg>result.png</arg>
+<doc>Screen should contain</doc>
+<msg timestamp="20210824 20:50:59.693" level="INFO">Params: [result.png]</msg>
+<msg timestamp="20210824 20:50:59.693" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1629849059693.png'/&gt;</msg>
+<status status="PASS" starttime="20210824 20:50:59.350" endtime="20210824 20:50:59.693"/>
+</kw>
+<status status="PASS" starttime="20210824 20:50:59.349" endtime="20210824 20:50:59.693"/>
+</kw>
+<status status="PASS" starttime="20210824 20:50:52.289" endtime="20210824 20:50:59.693"/>
+</test>
+<status status="PASS" starttime="20210824 20:50:48.859" endtime="20210824 20:50:59.706"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Calculation">Calculation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
